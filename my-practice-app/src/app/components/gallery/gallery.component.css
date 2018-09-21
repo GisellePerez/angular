@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#ngview {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+figure img {
+    width: 200px;
+}
+
+.gallery-section {
+    text-align: center;
+    padding: 2em;
+}
+
+.gallery-section ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.gallery-section ul li {
+    list-style: none;
+    margin: 1em;
+    box-shadow: 2px 2px 3px #D9DBDB;
+}
+.product {
+    text-align: left;
+    padding: 0.5em 1em;
+}
+.product-main-info {
+    padding: 1em 0 0.5em 0;
+    border-top: 1px solid #D9DBDB;
+    display: flex;
+    justify-content: space-between;
+}
+.product-main-info .price{
+    color: rgb(34, 180, 161);
+    font-weight: bold;
+}

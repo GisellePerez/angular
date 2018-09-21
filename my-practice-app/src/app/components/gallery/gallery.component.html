@@ -1,0 +1,17 @@
+<section class="gallery-section">
+    <h1> {{ title }} </h1>
+    <ul>
+      <li *ngFor="let product of products">
+        <div class="product">
+          <figure>
+            <img class="product" src="assets/{{product.url}}"  alt={{product.title}} />
+          </figure>
+          <div class="product-main-info">
+            <h4>{{product.title}}</h4>
+            <p class="price">${{product.price}}</p>
+          </div>
+        </div>
+      </li>
+    </ul>      
+</section>
+  
